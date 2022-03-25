@@ -2220,8 +2220,12 @@ img {
 }
 
 .rich-text-block-3.list {
-  font-size: 18px;
+  position: static;
+  margin-left: -15px;
+  font-size: 15px;
   line-height: 28px;
+  font-weight: 300;
+  text-align: left;
 }
 
 .rich-text-block-4 {
@@ -2231,7 +2235,7 @@ img {
 .rich-text-block-4.list {
   font-size: 18px;
   line-height: 28px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .rich-text-block-5 {
@@ -2240,10 +2244,15 @@ img {
   line-height: 28px;
 }
 
+.rich-text-block-5.list {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+}
+
 .columns-7 {
   margin: 100px 10px;
-  padding-right: 75px;
-  padding-left: 75px;
+  padding-right: 68px;
+  padding-left: 68px;
   font-family: Roboto, sans-serif;
   font-size: 18px;
   line-height: 28px;
@@ -2925,6 +2934,65 @@ img {
   background-color: #fff;
 }
 
+.heading-23 {
+  margin-left: 100px;
+}
+
+.heading-24 {
+  margin-left: 109px;
+}
+
+.heading-25 {
+  margin-left: 79px;
+}
+
+.heading-26 {
+  margin-left: 79px;
+}
+
+.heading-27 {
+  margin-left: 79px;
+}
+
+.column-8 {
+  text-align: left;
+}
+
+.list-2 {
+  padding-right: 30px;
+  padding-left: 30px;
+  font-size: 20px;
+}
+
+.heading-28 {
+  margin-left: 10px;
+}
+
+.heading-29 {
+  margin-left: 10px;
+}
+
+.heading-30 {
+  margin-left: 10px;
+}
+
+.list-item {
+  font-size: 20px;
+}
+
+.columns-10 {
+  margin-top: 65px;
+}
+
+.list-3 {
+  padding-right: 73px;
+  padding-left: 73px;
+}
+
+.list-4 {
+  margin-bottom: 100px;
+}
+
 @media screen and (max-width: 991px) {
   .hero {
     min-height: 520px;
@@ -3311,6 +3379,11 @@ img {
 
   .rich-text-block-9 {
     font-family: Roboto, sans-serif;
+  }
+
+  .list-4 {
+    padding-right: 63px;
+    padding-left: 63px;
   }
 }
 
@@ -4084,6 +4157,52 @@ img {
     padding-right: 15px;
     color: #fff;
   }
+
+  .list-2 {
+    font-size: 18px;
+  }
+
+  .heading-28 {
+    font-size: 20px;
+  }
+
+  .heading-29 {
+    font-size: 20px;
+  }
+
+  .heading-30 {
+    font-size: 20px;
+  }
+
+  .div-block-64 {
+    position: relative;
+    text-align: left;
+  }
+
+  .columns-10 {
+    padding-right: 111px;
+    padding-left: 111px;
+  }
+
+  .column-9 {
+    margin-top: 18px;
+    margin-bottom: 18px;
+  }
+
+  .list-3 {
+    padding-right: 69px;
+    padding-left: 69px;
+    color: #fff;
+  }
+
+  .list-4 {
+    margin-bottom: 70px;
+    color: #fff;
+  }
+
+  .list-item-2 {
+    color: #fff;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -4609,6 +4728,24 @@ img {
 
   .rich-text-block-9 {
     margin-top: -25px;
+  }
+
+  .columns-10 {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .list-3 {
+    margin-top: -18px;
+    padding-right: 31px;
+    padding-left: 31px;
+  }
+
+  .list-4 {
+    margin-bottom: 50px;
+    padding-right: 38px;
+    padding-left: 38px;
+    line-height: 30px;
   }
 }
 
