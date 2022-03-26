@@ -131,6 +131,8 @@ img {
 
 .hero.contact-page {
   min-height: 450px;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(17%, rgba(0, 0, 0, 0.57)), to(#222)), url('../images/pexels-kaboompics-com-6444.png');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.57) 17%, #222), url('../images/pexels-kaboompics-com-6444.png');
   background-position: 0px 0px, 50% 100%;
 }
 
