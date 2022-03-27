@@ -2169,7 +2169,7 @@ img {
 }
 
 .heading-11 {
-  margin-top: 0px;
+  margin-top: -200px;
   margin-bottom: 30px;
   padding-right: 206px;
   padding-left: 206px;
@@ -3002,6 +3002,11 @@ img {
 
 .list-4 {
   margin-bottom: 100px;
+}
+
+.image-107 {
+  padding-right: 25px;
+  padding-left: 25px;
 }
 
 @media screen and (max-width: 991px) {
@@ -3889,6 +3894,7 @@ img {
   }
 
   .heading-11 {
+    margin-top: -500px;
     padding-right: 97px;
     padding-left: 97px;
   }
@@ -4583,6 +4589,7 @@ img {
   }
 
   .heading-11 {
+    margin-top: -530px;
     padding-right: 24px;
     padding-left: 24px;
     font-size: 16px;
