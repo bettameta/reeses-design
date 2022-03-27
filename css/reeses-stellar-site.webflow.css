@@ -282,18 +282,27 @@ img {
   margin-left: auto;
   padding-right: 36px;
   padding-left: 36px;
+  border-color: #fff;
   background-color: transparent;
+  color: #fff;
   font-size: 20px;
   text-align: left;
 }
 
 .button.submit:hover {
-  border-color: #fff;
-  color: #fff;
+  border-color: #00ffd6;
+  color: #00ffd6;
 }
 
 .button.landing-page {
   margin-bottom: 60px;
+  border-color: #fff;
+  color: #fff;
+}
+
+.button.landing-page:hover {
+  border-color: #00ffd6;
+  color: #00ffd6;
 }
 
 .section {
@@ -406,7 +415,7 @@ img {
   font-family: 'Libre Franklin', sans-serif;
   color: #fff;
   font-size: 32px;
-  line-height: 42px;
+  line-height: 52px;
   font-style: normal;
   font-weight: 400;
 }
