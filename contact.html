@@ -33,23 +33,38 @@
         </div>
       </div>
     </div>
+
+
     <div class="heading-wrapper w-container">
       <h1 class="main-heading">Reach out! <br>Let&#x27;s be brilliant together.</h1>
     </div>
   </div>
+
   <div class="wf-section">
     <div class="w-container">
       <div class="form w-form">
-        <form id="email-form" name="email-form" data-name="Email Form" method="post" class="form-2"><label for="name" class="field">Name</label><input type="text" class="input w-input" autofocus="true" maxlength="256" name="name" data-name="Name" placeholder="What is your name?" id="name" required=""><label for="email" class="field">Email Address</label><input type="email" class="input w-input" autofocus="true" maxlength="256" name="email" data-name="Email" placeholder="What is your email address?" id="email" required=""><label for="Message" class="field">Message</label><textarea id="Message" name="Message" maxlength="5000" data-name="Message" placeholder="What would you like to say?" required="" autofocus="true" class="input text-area w-input"></textarea><input type="submit" value="Submit" data-wait="Just a sec..." class="button submit w-button"></form>
-        <div class="success w-form-done">
-          <p class="success-message">Thanks! I will be in touch shortly.</p>
-        </div>
-        <div class="error-message w-form-fail">
-          <p class="paragraph-7">Oops! Something went wrong while submitting the form.<br>Please try again.</p>
-        </div>
-      </div>
+        <form action="https://formsubmit.co/ibettameta@gmail.com" method="POST">
+
+          <!--this will remove the captcha
+          <input type="hidden" name="_captcha" value="false">
+          -->
+
+          <class="form-2"><label for="name" class="field">Name</label>
+          <input type="text" class="input w-input" autofocus="true" maxlength="256" name="name" data-name="Name" placeholder="What is your name?" id="name" required="">
+          <label for="email" class="field">Email Address</label><input type="email" class="input w-input" autofocus="true" maxlength="256" name="email" data-name="Email" placeholder="What is your email address?" id="email" required=""><label for="Message" class="field">Message</label><textarea id="Message" name="Message" maxlength="5000" data-name="Message" placeholder="What would you like to say?" autofocus="true" class="input text-area w-input"></textarea><input type="submit" value="Send" data-wait="Just a sec..." class="button submit w-button" target="_blank"></form>
+        
+          <!-- Formsubmit overrides these indicators -----
+          <div class="success w-form-done">
+            <p class="success-message">Thank you! I will be in touch shortly.</p>
+          </div>
+          <div class="error-message w-form-fail">
+            <p class="paragraph-7">Oops! Something went wrong while submitting the form.<br>Please try again.</p>
+          </div>
+          -->
     </div>
   </div>
+
+
   <div class="footer wf-section">
     <div class="container-2 w-container">
       <div class="div-block">
