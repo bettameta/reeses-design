@@ -3097,6 +3097,13 @@ img {
   font-family: Roboto, sans-serif;
 }
 
+.text-block-14 {
+  margin-top: 31px;
+  margin-bottom: 95px;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 1rem;
+}
+
 @media screen and (max-width: 991px) {
   .hero {
     min-height: 520px;
@@ -4945,6 +4952,12 @@ img {
 
   .div-block-65 {
     margin-bottom: 40px;
+  }
+
+  .text-block-14 {
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: .7rem;
   }
 }
 
