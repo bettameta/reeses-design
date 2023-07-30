@@ -2746,8 +2746,11 @@ img {
   flex-wrap: nowrap;
 }
 
+
+/****/
+
 .product-page {
-  margin-left: 24%;
+  margin-left: 0%;
   border: 2px solid #fff;
   border-radius: 20px;
   background-color: hsla(0, 0%, 100%, 0.07);
@@ -2759,6 +2762,8 @@ img {
   background-color: #00d6b4;
   color: #fff;
 }
+/*****/
+
 
 .heading-17 {
   font-family: Roboto, sans-serif;
@@ -2852,6 +2857,120 @@ img {
 .section-12 {
   display: block;
 }
+
+/*** Link Simplify ***/
+
+.card-main {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 940px;
+}
+
+.link-block-card {
+  width: 100%;
+  margin: 4% 0;
+  background-color: #dc9847cf;
+
+}
+
+.one-column-width{
+  width: 50%;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.column-direction {
+  flex-direction: column;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.center-content {
+  justify-content: center;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+
+/******** Project Page Redo *****************/
+
+          .project-page-cards {
+            width: 90vw;
+            display: flex;
+            justify-content: center;
+            background-color: #7e4602;
+            margin: 10% 0;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 940px;
+          }
+
+          .image {
+            flex: 2;
+            max-width: 66.66667%; /* Two-thirds */
+          }
+
+          .image img {
+            width: 100%;
+            height: auto;
+          }
+
+          .content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex: 1;
+            padding: 0 5%;
+          }
+
+          h3 {
+            margin-top: 0;
+          }
+
+          p {
+            margin-bottom: 0;
+          }
+
+          .project-button-99 {
+                border: 2px solid #fff;
+                padding: 5px 20px;
+                border-radius: 20px;
+                background-color: rgba(255, 255, 255, 0.07);
+                font-family: Roboto, sans-serif;
+                color: #fff;
+          }
+
+          .project-button-99:hover {
+              background-color: #00ffd6;
+              color: #7e4602;
+              border: none;
+          }
+
+
+
+
+
+
+
+
+
+
+
+
 
 .link-block-8 {
   width: 100%;
@@ -3416,7 +3535,7 @@ img {
     flex-direction: row;
   }
 
-  .product-page {
+  .product-page .w-button{
     margin-left: 24%;
   }
 
